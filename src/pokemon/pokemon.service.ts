@@ -5,7 +5,6 @@ import { isValidObjectId, Model } from 'mongoose';
 import { Pokemon } from './entities/pokemon.entity';
 import { InjectModel } from '@nestjs/mongoose';
 import { PaginationDto } from 'src/common/dto/pagination.dto';
-import { sortUserPlugins } from 'vite';
 import { ConfigService } from '@nestjs/config';
 
 @Injectable()
